@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['handball']
+
+roboflow:
+  workspace: penalty-detection
+  project: handball-detection-op71z
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/penalty-detection/handball-detection-op71z/dataset/2
