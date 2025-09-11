@@ -9,7 +9,7 @@ from yolo_methods import (
 import cv2
 from datetime import datetime
 
-model_path = "training/runs/detect/train5/weights/best.pt"
+model_path = "training/runs/detect/train7/weights/best.pt"
 video_path = "input_videos/jacob.mp4"
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 output_path = f"output_videos/output_{timestamp}.mp4"
